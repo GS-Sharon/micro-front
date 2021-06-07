@@ -2,7 +2,7 @@ module.exports = {
   webpack: (config) => {
     config.output.library = 'reactApp';
     config.output.libraryTarget = 'umd';
-    config.output.publicPath = 'http://localhost:10000';
+    config.output.publicPath = 'http://localhost:10000/';
     return config;
   },
   devServer: (configFunction) => {
